@@ -47,8 +47,7 @@ const Navbar = () => {
           </Menu>
         </Box>
         <Spacer />
-        <Box p="4" bg="black">
-          {/*ACA PASO EL COMPONENTE CARTWIDGET QUE ES EL Q TIENE EL BADGE CON EL CONTADOR DE CADA PRODUCTO DISTINTO */}
+        <Box p="7" >
           <CartWidget />
         </Box>
       </Flex>

@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "./Item";
 
-//RECIBO POR PROPS TODOS LOS PRODUCTOS, LOS MAPEO Y LOS DESESTRUCTURO PARA LUEGO PASARLE LA INFO A ITEM
+
 const ItemList = ({ productos }) => {
   return (
     <div>

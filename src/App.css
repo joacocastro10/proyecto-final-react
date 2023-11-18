@@ -9,6 +9,10 @@
   max-width: 30px;
   max-height: 30px;
 }
+
+.th{
+  color: beige;
+}
 .btnCategorias {
   align-items: center;
   margin-left: 0px;
@@ -58,50 +62,49 @@ transform: scale(1.1);
 /* ESTILOS PARA EL CARRITO */
 
 .tablaCarrito {
-  border-radius: 10px; /* Agrega bordes redondeados */
+  border-radius: 10px; 
   overflow: hidden;
-  margin-top: 60px; /* Evita que el borde redondeado afecte a los elementos hijos */
+  margin-top: 60px; 
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  background-color: #5a57579d; /* Cambia el color de fondo a blanco o el color deseado */
-  box-shadow: 0 0 10px rgba(224, 217, 217, 0.5); /* Agrega una sombra para efecto difuminado */
+  background-color: #5a57579d; 
+  box-shadow: 0 0 10px rgba(224, 217, 217, 0.5); 
 }
 
-/* Ajusta el estilo de las celdas de la tabla */
+
 .table {
   width: 100%;
+  background-color: #413c3c1c;
+  
 }
 
-
-
-/* Ajusta el estilo del total */
 .total {
-  font-size: 30px !important; /* Ajusta el tamaño de fuente del total */
-  font-weight: bold; /* Hace que el total sea más destacado */
-  color:rgb(0, 0, 0); /* Cambia el color del total a rojo o el color deseado */
+  font-size: 30px !important; 
+  font-weight: bold; 
+  color:rgb(0, 0, 0); 
   text-align: center;
-  margin-top: 20px !important; /* Ajusta el margen superior para más separación */
+  margin-top: 20px !important; 
   margin-bottom: 20px !important;
-  padding-top: 10px; /* Añade espacio arriba del total */
-  border-top: 1px solid #000000; /* Agrega una línea superior */
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); /* Sombrea la línea superior */
+  padding-top: 10px; 
+  border-top: 1px solid #000000; 
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); 
 }
 
-/* Ajusta el estilo del botón */
+
 .button {
-  margin-top: 10px; /* Agrega espacio arriba del botón */
-  font-size: 16px; /* Ajusta el tamaño de fuente del botón */
-  font-weight: bold; /* Hace que el botón sea más destacado */
-  background-color: #ff0000; /* Cambia el color del botón a rojo o el color deseado */
-  color: #fff; /* Cambia el color del texto del botón a blanco o el color deseado */
-  border: none; /* Elimina el borde del botón */
-  padding: 10px 20px; /* Ajusta el relleno del botón */
-  border-radius: 5px; /* Agrega bordes redondeados al botón */
+  margin-top: 10px; 
+  font-size: 16px; 
+  font-weight: bold; 
+  background-color: #ff0000; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
 }
 
 .vaciarCarritoContainer {
-  margin-bottom: 20px; /* O el valor que desees para separar el botón de la parte inferior */
+  margin-bottom: 20px; 
 }
 
 .alertToast{

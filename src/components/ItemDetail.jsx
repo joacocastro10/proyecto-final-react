@@ -12,7 +12,6 @@ import {
 import ItemCount from "./ItemCount";
 
 
-//ACA BASICAMENTE AGARRA EL PRODUCTO YA CON EL ID DEL ITEMDETAILCONTAINER Y RENDERIZA EL MISMO EN UNA CARD QUE ARMO 
 const ItemDetail = ({ producto }) => {
   return (
     <div>
@@ -34,7 +33,6 @@ const ItemDetail = ({ producto }) => {
         </CardBody>
         <Divider />
         <CardFooter>
-          {/* EL FOOTER DE ESTA CARD ES UN COMPONENTE ITEM COUNT QUE LE MANDO EL PRODUCTO POR PROPS */}
           <ItemCount producto={producto} />
         </CardFooter>
       </Card>
